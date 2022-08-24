@@ -1,0 +1,26 @@
+.sobre-nós {
+    text-align: center;
+    padding: 5em 0 6em;
+}
+
+.sobre-nós__subtítulo {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--cor-vermelho);
+}
+
+.sobre-nós__título {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--azul-escuro);
+    margin: 24px auto 36px;
+}
+
+.sobre-nós__texto {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cor-cinza);
+    width: 55%;
+    line-height: 1.3;
+    margin: 0 auto;
+}

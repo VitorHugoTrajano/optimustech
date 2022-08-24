@@ -1,0 +1,32 @@
+.depoimentos {
+    text-align: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    padding: 4.5em;
+    width: 77%;
+    margin: 4em auto;
+}
+
+.depoimento__título {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--cor-vermelho);
+}
+
+.depoimento__texto {
+    font-size: 36px;
+    color: var(--cor-azul-escuro);
+    margin: 0.8em 0 1em 0;
+}
+
+.depoimento__perfil {
+    font-size: 16px;
+    color: var(--cor-azul-escuro);
+    margin: 1em 0 0.5em 0;
+}
+
+.depoimento__descrição-perfil {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cor-cinza);
+}

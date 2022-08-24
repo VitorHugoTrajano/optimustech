@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding-left: 5em;
+}
+
+.container__título {
+    font-size: 18px;
+    color: var(--cor-grafite);
+    padding-left: 0.5em;
+}
+
+.menu__navegação {
+    display: flex;
+    align-items: center;
+    padding-left: 7.5em;
+}
+
+.link__navegação {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--cor-cinza);
+    margin: 0 1.5em;
+}
+
+.container__login {
+    display: flex;
+    align-items: center;
+    padding-right: 5em;
+}
+
+.link__login {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--cor-cinza);
+    margin: 0 1em;
+}
+
+.botão__cadastrar {
+    font-size: 16px;
+    color: var(--cor-de-fundo);
+    background-color: var(--cor-vermelho);
+    border-radius: 8px;
+    padding: 1em;
+}

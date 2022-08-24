@@ -1,0 +1,35 @@
+.container__vagas-abertas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20.5em;
+}
+
+.container__titulo {
+    font-size: 20px;
+    color: var(--cor-azul-escuro);
+    margin-bottom: 2em;
+}
+
+.cartão__título {
+    font-size: 18px;
+    color: var(--cor-azul-escuro);
+    grid-column: span 2;
+}
+
+.cartão__texto {
+    font-size: 16px;
+    color: var(--cor-cinza);
+}
+
+.cartão__vagas-abertas {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    row-gap: 2em;
+    column-gap: 1em;
+    border: 1px solid var(--cor-cinza-claro);
+    border-radius: 16px;
+    width: 65%;
+    padding: 2em;
+    margin-bottom: 1.5em;
+    
+}
